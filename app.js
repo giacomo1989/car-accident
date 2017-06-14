@@ -288,7 +288,17 @@ class FacebookBot {
             this.doApiAiRequest(apiaiRequest, sender);
         }
     }
-
+let apiaiRequest = apiAiService.textRequest(text,
+{
+sessionId: sessionIds.get(sender),
+contexts: [
+{
+name: "generic",
+parameters: {
+facebook_user: userName
+}
+}
+});
     processMessageEvent(event) {
         const sender = event.sender.id.toString();
         const text = this.getEventText(event);
