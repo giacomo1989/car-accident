@@ -1,8 +1,8 @@
 'use strict';
 
-const APIAI_ACCESS_TOKEN = 'api_ai_access_token';
-const FB_VERIFY_TOKEN = 'fb_verify_token';
-const FB_PAGE_ACCESS_TOKEN = 'fb_access_token';
+const APIAI_ACCESS_TOKEN = 'bc4bb2a95a0d4b9c9b31adcb1e8ca67b';
+const FB_VERIFY_TOKEN = 'abcd1234';
+const FB_PAGE_ACCESS_TOKEN = 'EAAUCCGh1yPQBACZBjcdvGJIkgIzUd5SE6tgXjUNIjcg2kFZC7TfFHYNiUleCNRaupAEpC67LfG0ZA13nr2jZBwe54QTzNqvZB0gHLMJvvSPpPUgpZCZAh9295t1Boun8UbutkDeyHMDvKo7vVyLdLJzOcPIDDKqYZC0iCwmjnu5QwAZDZD';
 const APIAI_LANG = 'en';
 
 process.env['APIAI_ACCESS_TOKEN'] = APIAI_ACCESS_TOKEN;
